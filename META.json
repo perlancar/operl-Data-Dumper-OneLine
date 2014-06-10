@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Cside/Data-Dumper-OneLine/issues"
+      },
+      "homepage" : "https://github.com/Cside/Data-Dumper-OneLine",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Cside/Data-Dumper-OneLine.git",
+         "web" : "https://github.com/Cside/Data-Dumper-OneLine"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:CSIDE"
 }

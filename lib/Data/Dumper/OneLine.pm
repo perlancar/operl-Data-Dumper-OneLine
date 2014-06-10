@@ -38,11 +38,13 @@ Data::Dumper::OneLine - Dumps data as one line string
 
     use Data::Dumper::OneLine;
 
-    Dumper({
-        foo => {
-            bar => {},
-        },
-    });
+    Dumper(
+        {
+            foo => {
+                bar => {},
+            },
+        }
+    );
     #=> {foo => {bar => {}}}
 
 =head1 LICENSE
