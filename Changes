@@ -2,6 +2,8 @@ Revision history for Perl extension Data-Dumper-OneLine
 
 {{$NEXT}}
 
+0.03 2014-06-12T06:51:44Z
+
     - fix cpanfile
 
 0.02 2014-06-12T06:14:31Z
