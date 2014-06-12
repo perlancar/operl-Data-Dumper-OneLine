@@ -7,7 +7,7 @@ use Data::Recursive::Encode;
 use parent qw(Exporter);
 our @EXPORT = qw(Dumper);
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 our $Encoding;
 
 sub Dumper {
