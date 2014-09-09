@@ -2,6 +2,8 @@ Revision history for Perl extension Data-Dumper-OneLine
 
 {{$NEXT}}
 
+    - stop dependency to perl 5.10.0
+
 0.04 2014-09-09T05:19:31Z
 
     - rm unused script

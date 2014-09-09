@@ -47,7 +47,7 @@
             "Data::Recursive::Encode" : "0",
             "autodie" : "0",
             "parent" : "0",
-            "perl" : "5.010000"
+            "perl" : "5.008005"
          }
       },
       "test" : {
