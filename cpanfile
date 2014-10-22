@@ -1,5 +1,4 @@
 requires 'Data::Recursive::Encode';
-requires 'autodie';
 requires 'parent';
 
 on configure => sub {
