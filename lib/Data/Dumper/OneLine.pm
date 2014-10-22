@@ -23,7 +23,7 @@ sub Dumper {
     }
 
     my $str = Data::Dumper::Dumper($stuff);
-    $str =~ s/[\n\r]//g;
+    $str =~ s/[\n\r]/ /g;
     return $str;
 }
 
