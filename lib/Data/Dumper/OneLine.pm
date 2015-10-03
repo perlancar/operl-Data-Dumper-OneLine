@@ -17,6 +17,7 @@ sub Dumper {
     local $Data::Dumper::Sortkeys  = 1;
     local $Data::Dumper::Quotekeys = 0;
     local $Data::Dumper::Deparse   = 1;
+    local $Data::Dumper::Useqq     = 1;
 
     if ($Encoding) {
         $stuff = Data::Recursive::Encode->encode_utf8($stuff);
@@ -61,4 +62,3 @@ it under the same terms as Perl itself.
 Hiroki Honda E<lt>cside.story@gmail.comE<gt>
 
 =cut
-
